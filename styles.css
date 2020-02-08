@@ -1,0 +1,96 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+h1,h2,h3 {
+	color:brown;
+	text-align: center;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: brown;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+	margin-bottom: 60px;
+}
+nav a:link, nav a:visited{
+	background-color: brown;
+	color: white;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 10px 0px;
+}
+nav a:hover{
+	background-color: black;
+
+}
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+   }
+   header{
+   	background-image: url("https://ngtravel.eu/upl/2018/12/gruzinskaya-kukhnya.jpg");
+   	height: 147px;
+   	margin-bottom: 70px;
+   }
+   header h1{
+   	color: rgba(256,256,256,0.8);
+   	margin-left: 30px;
+   	margin-top: 30px;
+   	font-size: 50px;
+   }
+   footer {
+  clear: both;
+   }
+   footer nav a:link,footer nav a:visited{
+	color: gray;
+	background-color: white;
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	text-align: center;
+	}
+	footer nav a:hover{
+		color: black;
+	}
+	 table,td,th{
+      border: 1px solid grey;
+    }
+    table{
+      width: 600px;
+      height: 250px;
+      border-spacing: 0px;
+      text-align: center;
+    }
+    thead{
+    	background-color: brown;
+    	font-size: 120%;
+    	color: white;
+    }
+    th{
+    	height: 30px;
+    }
+    tbody{
+    	background-color: lightgrey;
+    }
+
+
+   

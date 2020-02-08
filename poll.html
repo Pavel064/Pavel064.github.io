@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Поездка в Грузию и Турцию</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+   <style>
+     @font-face {
+    font-family: nfont; /* Гарнитура шрифта */
+    src: url(fonts/1.ttf); /* Путь к файлу со шрифтом */
+   }
+   h1,h3 {
+    font-family: nfont, 'Comic Sans MS', cursive;
+   }
+  
+  </style>
+</head>
+<body>
+<header>
+    <h1>Знакомство с Грузией и Турцией в апреле!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Описание</a></li>
+       <li><a href="tbilisi.html">Тбилиси</a></li>
+        <li><a href="turkey.html">Поездка в Турцию</a></li>
+        <li><a href="info.html">Информация</a></li>
+         <li><a href="poll.html">Опрос</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+
+<form action="formdata.php" method="get" name="form1">
+  <fieldset >
+    <legend>Небольшой опрос</legend>
+  <p><label> Введите Ваше имя: <input type="text" name="name" size="20" maxlength="10"></label></p>
+  <p><label> E-mail: <input type="text" name="E-mail" size="31"></label></p>
+  <p>Вы готовы к поездке?</p>
+<p><label> Да<input type="radio" name="time" value="Да" checked></label><label> Нет<input type="radio" name="time" value="Нет"></label></p>
+<p>Чего вы опасаетесь в этом путешествии?</p>
+<p>
+<p><label><input type="checkbox" name="tu">Турков </label>
+<label><input type="checkbox" name="ru">Русских дорог </label>
+</p>
+<label><input type="checkbox" name="ge" disabled>Грузин </label>
+<label><input type="checkbox" name="rutu">Русских на турецких дорогах </label></p>
+<p>Сколько грузинских слов Никита выучит за поездку?</p>
+<p><select name="lang">
+  <option>2</option>
+  <option selected>5</option>
+  <option>11</option>
+  <option>Из принципа, будет учить турецкий!</option>
+</select></p>
+<p><label for="text">Ваши пожелания касательно грядущего путешествия:</label></p>
+<p><textarea name="text" cols="50" rows="12" id="text" placeholder="Начните вводить текст..."></textarea></p>
+<p><input type="reset" name="сброс"><input type="submit" name="кнопка отправки" value="Отправить"></p>
+</fieldset>
+
+</form>
+
+</section>
+<footer>
+  <nav>
+    <ul>
+        <li><a href="index.html">Описание</a></li>
+        <li><a href="tbilisi.html">Тбилиси</a></li>
+        <li><a href="turkey.html">Поездка в Турцию</a></li>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="poll.html">Опрос</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+  </nav>
+</footer>
+</body>
+</html>
